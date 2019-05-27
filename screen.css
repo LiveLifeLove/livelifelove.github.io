@@ -27,7 +27,7 @@ DIV#Container{
 }
 
 DIV#Logo{
-	Background:		URL(NetCore-Persona.png) Center 35% No-Repeat;
+	Background:		URL(NetCore-Persona.png)/*tpa=http://netcore.com/NetCore-Persona.png*/ Center 35% No-Repeat;
 	Width:			100%;
 	Height:			100%;
 	Top:			1px;
@@ -90,7 +90,7 @@ A:Active, A:Hover{
 }
 
 INPUT.Text{
-	Background:		White URL(./Icons.png) 6px 5px No-Repeat;
+	Background:		White URL(Icons.png)/*tpa=http://netcore.com/Icons.png*/ 6px 5px No-Repeat;
 	Padding-Left:	28px;
 	Height:			24px;
 	Width:			250px;
@@ -104,7 +104,7 @@ INPUT.Text:Focus{
 }
 
 INPUT.Error{
-	Background:		#FFD0D0 URL(./Icons.png) 6px -27px No-Repeat !important;
+	Background:		#FFD0D0 URL(Icons.png)/*tpa=http://netcore.com/Icons.png*/ 6px -27px No-Repeat !important;
 	Border:			2px Solid Red!important;
 	Color:			Red;
 }
@@ -114,7 +114,7 @@ INPUT.Error:Focus{
 
 INPUT.Processing,
 INPUT.Processing:Focus{
-	Background:		White URL(./Throbber.gif) 6px 5px No-Repeat !important;
+	Background:		White URL(Throbber.gif)/*tpa=http://netcore.com/Throbber.gif*/ 6px 5px No-Repeat !important;
 	Border:			2px Solid #00D0FF !important;
 	Cursor:			Wait;
 }
