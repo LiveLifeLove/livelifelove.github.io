@@ -1,0 +1,146 @@
+*{	Outline:		0;
+}
+
+* html body{
+	Overflow:		Hidden;
+}
+
+BODY{
+	BackGround:		#326696;
+	Margin:			0;
+	Padding:		0;
+	Overflow:		Hidden;
+}
+
+H1 SPAN{
+	Display:		None;
+}
+
+DIV#Container{
+	Font:			Normal Normal 18px Arial;
+	Color:			White;
+	Top:			1px;			
+	Width:			960px;
+	Height:			100%;
+	Margin:			0 Auto;
+	Padding:		0;
+}
+
+DIV#Logo{
+	Background:		URL(NetCore-Persona.png) Center 35% No-Repeat;
+	Width:			100%;
+	Height:			100%;
+	Top:			1px;
+	Position:		Absolute;
+}
+
+DIV#Notified{
+	Width:			960px;
+	Color:			White;
+	Text-Shadow:	0px 0px 2px RGBa(150,200,250,1),
+					0px 0px 4px RGBa(100,150,200,1),
+					0px 0px 8px RGBa(50,100,150,1),
+					0px 0px 16px RGBa(50,100,150,1) !Important;
+	Padding:		20px 0;
+	Position:		Absolute;
+	Bottom:			20px;
+}
+
+H1{
+	Font:			Normal Bold 20px Arial;
+	Margin:			0;
+	Padding:		0 0 20px 0;
+}
+
+H2{
+	Color:			Black;
+	Text-Shadow:	None;
+	Font:			Normal Bold 16px Arial;
+	Margin:			0 0 5px 0;
+	Padding:		0;
+}
+
+P{
+	Font:			Normal Normal 18px Arial;
+	Margin:			0 0 20px 0;
+	Padding:		0;
+}
+
+P.Body{
+	Color:			Black;
+	Text-Shadow:	None;
+	Font:			Normal Normal 12px Arial;
+	Margin:			0 0 10px 0;
+	Padding:		0;
+}
+
+A, A:Visited{
+	Color:			Blue;
+	Text-Shadow:	0px 0px 8px RGBa(255,255,255,1),
+					0px 0px 16px RGBa(255,255,255,1);
+	Text-Decoration:None;
+	Cursor:			Pointer;
+}
+
+A:Active, A:Hover{
+	Text-Decoration:Underline;
+	xColor:			White;
+	xText-Decoration:Underline\9;
+	xText-Shadow:	1px 1px 16px RGBa(50,100,150,1);
+}
+
+INPUT.Text{
+	Background:		White URL(./Icons.png) 6px 5px No-Repeat;
+	Padding-Left:	28px;
+	Height:			24px;
+	Width:			250px;
+	Margin-Right:	7px;
+	Border:			2px Solid Silver;
+	Border:			2px Solid RGBa(0,0,0,.25);
+	Color:			Black;
+}
+INPUT.Text:Focus{
+	Border:			2px Solid Black;
+}
+
+INPUT.Error{
+	Background:		#FFD0D0 URL(./Icons.png) 6px -27px No-Repeat !important;
+	Border:			2px Solid Red!important;
+	Color:			Red;
+}
+INPUT.Error:Focus{
+	Border:			2px Solid Black !important;
+}
+
+INPUT.Processing,
+INPUT.Processing:Focus{
+	Background:		White URL(./Throbber.gif) 6px 5px No-Repeat !important;
+	Border:			2px Solid #00D0FF !important;
+	Cursor:			Wait;
+}
+
+INPUT#MyName,INPUT#Captcha{
+	Position:		Absolute;
+	Top:			-909090px;
+	Left:			-909090px;
+}
+
+BUTTON{
+	Font:			Normal Bold 12px/16px Arial;
+	Height:			28px;
+	Cursor:			Pointer;
+}
+			-99600px;
+	Left:			-93840px;
+	Visibility:		Hidden;
+}
+
+BUTTON{
+	Font:			Normal Bold 12px/24px Arial;
+	Height:			28px;
+	Cursor:			Pointer;
+}
+
+BUTTON.Wait{
+	Cursor:			Wait;
+}
